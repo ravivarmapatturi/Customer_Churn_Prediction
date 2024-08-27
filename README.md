@@ -15,8 +15,6 @@ This repository contains a machine learning project focused on predicting custom
 9. [Hyperparameter Tuning](#hyperparameter-tuning)
 10. [Results](#results)
 11. [Future Work](#future-work)
-12. [Contributing](#contributing)
-13. [License](#license)
 
 ## Project Overview
 
@@ -33,13 +31,14 @@ Customer churn is a key business problem, where the goal is to predict if a cust
 The repository is organized as follows:
 
 ```
-├── data/                   # Folder containing dataset files
-├── notebooks/              # Jupyter Notebooks for data analysis and modeling
-├── models/                 # Saved machine learning models
-├── src/                    # Source code for data preprocessing, feature engineering, etc.
-├── results/                # Folder containing evaluation results and model metrics
-├── README.md               # Project overview and instructions
-└── requirements.txt        # Required packages and libraries
+├── data/                                          # Folder containing dataset files
+├── Customer_Churn_Prediction.ipynb /              # Source code for data preprocessing, feature engineering, data analysis and modeling etc
+├── saved_models/                                  # Saved machine learning models
+├── images/                                        # Source code for data preprocessing, feature engineering, etc.
+├── results/                                       # Folder containing images
+├── README.md                                      # Project overview and instructions
+└── requirements.txt                               # Required packages and libraries
+├── DockerFile                                     # Docker file
 ```
 
 ## Installation
