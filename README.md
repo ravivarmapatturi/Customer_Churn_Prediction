@@ -15,8 +15,6 @@ This repository contains a machine learning project focused on predicting custom
 9. [Hyperparameter Tuning](#hyperparameter-tuning)
 10. [Results](#results)
 11. [Future Work](#future-work)
-12. [Contributing](#contributing)
-13. [License](#license)
 
 ## Project Overview
 
