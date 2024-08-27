@@ -6,7 +6,7 @@ from PIL import Image
 
 #load the model from disk
 import joblib
-model = joblib.load(r"C:\Users\raviv\OneDrive\Documents\learning\Youtube\Customer_Churn_Prediction\saved_models\model.sav")
+model = joblib.load("./saved_models/model.sav")
 
 
 
@@ -22,7 +22,7 @@ def main():
     st.markdown("<h3></h3>", unsafe_allow_html=True)
 
     #Setting Application sidebar default
-    image = Image.open(r'C:\Users\raviv\OneDrive\Documents\learning\Youtube\Customer_Churn_Prediction\Images\churn_prediction_app.png')
+    image = Image.open(r'./Images/churn_prediction_app.png')
     add_selectbox = st.sidebar.selectbox(
     "How would you like to predict?", ("Online", "Batch"))
     st.sidebar.info('This app is created to predict Customer Churn')
