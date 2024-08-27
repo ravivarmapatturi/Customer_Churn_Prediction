@@ -115,10 +115,3 @@ The final model achieved an accuracy of **X%** and an AUC score of **Y**. The tu
 
 Contributions are welcome! If you have suggestions for improvement, feel free to open a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this template based on your project’s specific details and the audience you are targeting.
